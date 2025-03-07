@@ -5,7 +5,7 @@
 //  Created by MAC-Nasridinov-B on 25/02/25.
 //
 
-public final class MergeKSortedLists: Solution {
+public final class MergeKSortedLists: LeetcodeSolution {
     
     public func mergeKLists(_ lists: [ListNode?]) -> ListNode? {
         guard lists.count > 1 else {

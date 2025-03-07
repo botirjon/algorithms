@@ -30,7 +30,7 @@ public struct Stack<Element> {
     }
 }
 
-public final class LargestRectangleInHistogram: Solution {
+public final class LargestRectangleInHistogram: LeetcodeSolution {
     public func largestRectangleArea(_ heights: [Int]) -> Int {
         let n = heights.count
         var maxArea = 0

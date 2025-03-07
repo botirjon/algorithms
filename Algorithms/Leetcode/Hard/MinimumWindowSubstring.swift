@@ -5,7 +5,7 @@
 //  Created by MAC-Nasridinov-B on 27/02/25.
 //
 
-public final class MinimumWindowSubstring: Solution {
+public final class MinimumWindowSubstring: LeetcodeSolution {
     
     public func minWindow(_ s: String, _ t: String) -> String {
         let s = Array(s)

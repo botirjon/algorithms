@@ -8,7 +8,7 @@
 
 /// Leetcode / 4. Median of two sorted arrays
 /// https://leetcode.com/problems/median-of-two-sorted-arrays/description/
-public final class MedianOfTwoSortedArrays: Solution {
+public final class MedianOfTwoSortedArrays: LeetcodeSolution {
     public func findMedianSortedArrays(_ nums1: [Int], _ nums2: [Int]) -> Double {
         var r = [Int]()
 

@@ -5,7 +5,7 @@
 //  Created by MAC-Nasridinov-B on 25/02/25.
 //
 
-public class FirstMassivePositive: Solution {
+public class FirstMassivePositive: LeetcodeSolution {
     public func firstMissingPositive(_ nums: [Int]) -> Int {
 
         let nums = nums.sorted(by: <)

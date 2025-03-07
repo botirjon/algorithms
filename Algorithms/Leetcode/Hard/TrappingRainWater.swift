@@ -5,7 +5,7 @@
 //  Created by MAC-Nasridinov-B on 25/02/25.
 //
 
-public final class TrappingRainWater: Solution {
+public final class TrappingRainWater: LeetcodeSolution {
     
     public func trap(_ height: [Int]) -> Int {
         let n = height.count

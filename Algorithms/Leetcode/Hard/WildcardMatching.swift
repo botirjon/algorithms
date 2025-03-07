@@ -5,7 +5,7 @@
 //  Created by MAC-Nasridinov-B on 27/02/25.
 //
 
-final public class WildcardMatching: Solution {
+final public class WildcardMatching: LeetcodeSolution {
     
     public func isMatch(_ s: String, _ p: String) -> Bool {
         let s = Array(s)

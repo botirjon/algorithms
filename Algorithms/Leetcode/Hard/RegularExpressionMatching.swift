@@ -8,7 +8,7 @@
 
 /// Leetcode / 10. Regular Expression Matching
 /// https://leetcode.com/problems/regular-expression-matching/description/
-public final class RegularExpressionMatching: Solution {
+public final class RegularExpressionMatching: LeetcodeSolution {
     public func isMatch(_ s: String, _ p: String) -> Bool {
         let s = Array(s), p = Array(p)
         let m = s.count, n = p.count
