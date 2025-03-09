@@ -39,3 +39,26 @@ public final class BinaryTreeMaximumPathSum: LeetcodeSolution {
         return sum
     }
 }
+
+public final class BinaryTreeMaximumPathSum2: LeetcodeSolution {
+    var maxSum = Int.min
+
+    public func maxPathSum(_ root: TreeNode?) -> Int {
+        guard let root = root else { return 0 }
+        maxPathSumHelper(root)
+        return maxSum
+    }
+
+    @discardableResult
+    public func maxPathSumHelper(_ node: TreeNode?) -> Int {
+        guard let node = node else { return 0 }
+        let val = node.val
+        let left = max(maxPathSumHelper(node.left), 0)
+        let right = max(maxPathSumHelper(node.right), 0)
+        let pathSum = left + right + val
+
+        maxSum = max(maxSum, pathSum)
+
+        return max(left, right) + val
+    }
+}
